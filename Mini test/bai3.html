@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+  // bài3 :
+  let arr = [1, 4, 3, 4, 7, 5, 8, 4];
+  let count = 0;
+
+  function NumberFunction(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] % 2 === 0) {
+        count++;
+      }
+    }
+    return count;
+  }
+
+  console.log("Số lượng số chẵn trong mảng là:", NumberFunction(arr));
+
+</script>
+</body>
+</html>

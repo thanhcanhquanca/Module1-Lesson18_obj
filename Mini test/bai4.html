@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+  let arr = [2,3,4,7,4,5,2,2,3];
+  let count = 0;
+  function NumberFunction(arr,a) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === a){
+        count ++;
+      }
+    }
+    return count;
+  }
+
+let _input = +prompt("nhập số a");
+let result = NumberFunction(arr,_input);
+alert(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //
+  // // Hàm đếm số lần xuất hiện của phần tử a
+  // function countOccurrences(arr, a) {
+  //   let count = 0;
+  //
+  //   // Lặp qua từng phần tử của mảng
+  //   for (let i = 0; i < arr.length; i++) {
+  //     if (arr[i] === a) { // Kiểm tra nếu phần tử bằng a
+  //       count++;
+  //     }
+  //   }
+  //
+  //   return count; // Trả về số lần xuất hiện
+  // }
+  //
+  // // Mảng ví dụ
+  // let arr = [1, 4, 3, 4, 7, 5, 8, 4];
+  //
+  // // Nhập giá trị a từ bàn phím
+  // let a = parseInt(prompt("Nhập giá trị a cần đếm trong mảng:"));
+  //
+  // // Gọi hàm và in kết quả
+  // let result = countOccurrences(arr, a);
+  // console.log(`Số lần xuất hiện của ${a} trong mảng là: ${result}`);
+
+</script>
+</body>
+</html>
